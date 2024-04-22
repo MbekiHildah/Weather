@@ -10,20 +10,31 @@
     <div class="weather-app">
       <header>
         <form>
-          <input type="search" placeholder="Enter City..." required />
-          <input type="submit" value="Search" />
+          <input
+            type="search"
+            placeholder="Enter City..."
+            required
+            class="search-form"
+          />
+          <input type="submit" value="Search" class="search-submit" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Celbridge</h1>
-          <p>
-            Monday 17:50, Mostly Cloudy
-            <br />
-            Humidity: 65%, Wind: 3.13km/h
-          </p>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="city">Celbridge</h1>
+            <p class="weather-details">
+              Monday 17:50, Mostly Cloudy
+              <br />
+              Humidity: <strong>65%</strong>, Wind: <strong>3.13km/h</strong>
+            </p>
+          </div>
+          <div class="weather-temperature">
+            <div class="weather-app-icon">☁️</div>
+            <div class="weather-app-value">12</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
         </div>
-        <div>☁️ 12°C</div>
       </main>
       <footer>
         Coded by
