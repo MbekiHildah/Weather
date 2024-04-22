@@ -1,4 +1,5 @@
 body {
   background-image: url("skyline.jpg");
-  background-size: 800px;
+  background-size: 1000px;
+  background-repeat: no-repeat;
 }
