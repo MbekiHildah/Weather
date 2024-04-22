@@ -3,3 +3,12 @@ body {
   background-size: 1400px;
   background-repeat: no-repeat;
 }
+.weather-app {
+  background-color: rgba(240, 248, 255, 0.3);
+  backdrop-filter: blur(10px);
+  max-width: 600px;
+  margin: 60px auto;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
