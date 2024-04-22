@@ -9,12 +9,13 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
             placeholder="Enter City..."
             required
             class="search-form"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-submit" />
         </form>
@@ -22,7 +23,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="city">Celbridge</h1>
+            <h1 class="city" id="city">Celbridge</h1>
             <p class="weather-details">
               Monday 17:50, Mostly Cloudy
               <br />
@@ -49,5 +50,6 @@
         <a href="weather-app-mbeki.netlify.app" target="blank"> Netlify</a>
       </footer>
     </div>
+    <script src="src/index.js"
   </body>
 </html>
