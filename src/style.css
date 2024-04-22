@@ -1,3 +1,3 @@
 body {
-  background-image: src= "skyline.jpg" alt= "Image of a city Skyline";
+  background-image: url("img/skyline.jpg");
 }
